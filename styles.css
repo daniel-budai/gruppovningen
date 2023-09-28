@@ -1,0 +1,248 @@
+body {
+  background-color: #ebebeb;
+  max-width: 1002px;
+  margin: auto;
+  padding: 0;
+  height: 100vh;
+}
+
+.top_rectangle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "top1 top2"
+    "top3 top4";
+  width: 1002px;
+  height: 544px;
+}
+
+.top1 {
+  grid-area: top1;
+  background-color: #c7ddea;
+}
+
+.top_rectangle .top1 h1 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 45px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.top_rectangle .top1 p {
+  font-size: 14px;
+  font-family: Fira Sans;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  line-height: 24px;
+  padding: 0 80px;
+}
+
+.top2 {
+  grid-area: top2;
+  background-color: #f17949;
+}
+
+.top2 p {
+  font-family: Fira Sans;
+  font-size: 11px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.top2 h1 {
+  color: white;
+  font-size: 32px;
+  font-family: "Frank Ruhl Libre", serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.top3 {
+  grid-area: top3;
+  background-color: #c7ddea;
+}
+
+header .top3 img {
+  width: 286px;
+  height: 279px;
+  display: flex;
+  margin-left: 205px;
+}
+
+.top4 {
+  grid-area: top4;
+  background-color: #ffb939;
+}
+
+.top4 p {
+  font-family: Fira Sans;
+  font-size: 11px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.top4 h1 {
+  color: white;
+  font-size: 32px;
+  font-family: "Frank Ruhl Libre", serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+footer {
+  background-color: #777574;
+  width: 1002px;
+  height: 340px;
+}
+
+section.Rectangle_bottom {
+  background-color: #a9a19e;
+  width: 1002px;
+  height: 68px;
+}
+
+.Rectangle_bottom img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Rectangle_bottom p {
+  font-size: 17px;
+  font-family: Fira Sans;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.graysection {
+  background-color: #a9a19e;
+  width: 1002px;
+  height: 38.25rem;
+}
+
+.orangesection {
+  background-color: #fab131;
+  width: 1002px;
+  height: 680px;
+}
+
+nav {
+  max-width: 1002px;
+  height: 3rem;
+  background: #eee;
+  display: flex;
+  margin-left: 9.375rem;
+  margin-right: 9.375rem;
+}
+nav a {
+  text-decoration: none;
+  color: #000000;
+  opacity: 40%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Fira Sans;
+  font-size: 12px;
+}
+nav a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.nav a:nth-child(1) {
+  color: black;
+  opacity: 100%;
+}
+
+.lowergrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.rectangle_3 {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: #c7ddea;
+  width: 20.875rem;
+  height: 21.25rem;
+}
+.rectangle_3_1 {
+  grid-area: 1 / 2 / 2 / 3;
+  width: 20.875rem;
+  height: 21.25rem;
+  background-color: white;
+}
+.rectangle_3_2 {
+  grid-area: 1 / 3 / 2 / 4;
+  background-color: #ebebeb;
+  width: 20.875rem;
+  height: 21.25rem;
+}
+.rectangle_3_3 {
+  grid-area: 2 / 1 / 3 / 2;
+  width: 20.875rem;
+  height: 21.25rem;
+  background-color: white;
+}
+.rectangle_3_4 {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: #f17949;
+  width: 20.875rem;
+  height: 21.25rem;
+}
+.rectangle_3_5 {
+  grid-area: 2 / 3 / 3 / 4;
+  width: 20.875rem;
+  height: 21.25rem;
+  background-color: white;
+}
+
+div.rectangle_3 h1 {
+  font-size: 2.813rem;
+  line-height: 2.813rem;
+  height: 250px;
+  font-family: "Frank Ruhl Libre", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.lowergrid span {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 2.188rem;
+  opacity: 40%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 6.25rem;
+  height: 6.25rem;
+  font-weight: bold;
+}
+
+div.lowergrid p {
+  font-size: 1.063rem;
+  font-family: Fira Sans;
+  line-height: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+}

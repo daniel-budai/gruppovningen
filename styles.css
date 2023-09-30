@@ -42,6 +42,11 @@ body {
   padding: 0 80px;
 }
 
+.top1 span {
+  color: white;
+  display: contents;
+}
+
 .top2 {
   grid-area: top2;
   background-color: #f17949;
@@ -69,6 +74,21 @@ body {
 .top3 {
   grid-area: top3;
   background-color: #c7ddea;
+}
+
+.top3 button {
+  text-decoration: none;
+  height: 39px;
+  width: 131px;
+  font-size: 10px;
+  font-family: Fira Sans;
+  font-weight: 700;
+  line-height: 12px;
+  background: white;
+  color: black;
+  text-align: center;
+  border-radius: 999rem;
+  border: none;
 }
 
 header .top3 img {

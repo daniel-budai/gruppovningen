@@ -10,12 +10,6 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0px 0px;
-  /*
-  grid-auto-flow: row;
-  grid-template-areas:
-    "top1 top2"
-    "top3 top4"; */
-
   width: 1002px;
 }
 
@@ -30,10 +24,13 @@ body {
   font-family: "Frank Ruhl Libre", serif;
   font-size: 45px;
   margin-top: 0;
+  color: white;
 }
+
 .toplefttext {
   margin: 0rem 7.3rem;
 }
+
 .topleft {
   background-color: #c7ddea;
   font-size: 14px;
@@ -64,19 +61,6 @@ body {
   background-color: #ffb939;
 }
 
-.top1 {
-  grid-area: top1;
-  background-color: #c7ddea;
-}
-
-.top_rectangle .top1 h1 {
-  font-family: "Frank Ruhl Libre", serif;
-  font-size: 45px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
 .top_rectangle .top1 p {
   font-size: 14px;
   font-family: Fira Sans;
@@ -87,35 +71,9 @@ body {
   padding: 0 80px;
 }
 
-.top1 span {
+.topleft span {
   color: white;
   display: contents;
-}
-
-.top2 {
-  grid-area: top2;
-  background-color: #f17949;
-}
-
-.top2 p {
-  display: flex;
-
-  margin-top: 100px;
-}
-
-.top2 h1 {
-  color: white;
-  font-size: 32px;
-  font-family: "Frank Ruhl Libre", serif;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-top: -10px;
-}
-
-.top3 {
-  grid-area: top3;
-  background-color: #c7ddea;
 }
 
 .toplefttext button {
@@ -139,33 +97,8 @@ body {
   width: 286px;
   height: 279px;
   display: flex;
-
   position: relative;
   right: -100px;
-}
-
-.top4 {
-  grid-area: top4;
-  background-color: #ffb939;
-}
-
-.top4 p {
-  font-family: Fira Sans;
-  font-size: 11px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-top: 100px;
-}
-
-.top4 h1 {
-  color: white;
-  font-size: 32px;
-  font-family: "Frank Ruhl Libre", serif;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-top: -10px;
 }
 
 footer {
@@ -199,12 +132,14 @@ section.Rectangle_bottom {
   background-color: #a9a19e;
   width: 1002px;
   height: 38.25rem;
+  display: flex;
 }
 
 .orangesection {
   background-color: #fab131;
   width: 1002px;
   height: 680px;
+  display: flex;
 }
 
 nav {
@@ -311,4 +246,72 @@ div.lowergrid p {
   justify-content: center;
   align-items: center;
   height: 85px;
+}
+
+.graysection h1 {
+  font-size: 45px;
+  font-family: "Frank Ruhl Libre", serif;
+  color: white;
+  line-height: 45px;
+  padding-left: 140px;
+  padding-top: 105px;
+}
+
+.graysection button {
+  text-decoration: none;
+  height: 39px;
+  width: 131px;
+  font-size: 10px;
+  font-family: Fira Sans;
+  font-weight: 700;
+  line-height: 12px;
+  background: white;
+  color: black;
+  text-align: center;
+  border-radius: 999rem;
+  border: none;
+  position: relative;
+  left: 130px;
+  top: 10px;
+}
+
+/*
+.graysection p {
+  font-family: Fira Sans;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 603px;
+  margin-right: 122px;
+  margin-top: -208px;
+}
+*/
+.ruta1 {
+  width: 256px;
+  height: 308px;
+  background-color: white;
+}
+
+.ruta2 {
+  width: 256px;
+  height: 308px;
+  background-color: white;
+}
+
+.ruta3 {
+  width: 256px;
+  height: 308px;
+  background-color: white;
+}
+
+.threeboxes {
+  display: flex;
+  margin: -43px auto;
+  gap: 2rem;
+}
+.rubrik {
+  flex: 1;
+}
+
+.lorem {
+  flex: 1;
 }

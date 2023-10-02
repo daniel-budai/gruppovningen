@@ -289,23 +289,44 @@ div.lowergrid p {
   width: 256px;
   height: 308px;
   background-color: white;
+  text-align: center;
+  padding-top: 81px;
+  box-sizing: border-box;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 120px;
+  border-radius: 5px;
 }
 
 .ruta2 {
   width: 256px;
   height: 308px;
   background-color: white;
+  text-align: center;
+  padding-top: 81px;
+  box-sizing: border-box;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 120px;
+  border-radius: 5px;
 }
 
 .ruta3 {
   width: 256px;
   height: 308px;
   background-color: white;
+  text-align: center;
+
+  box-sizing: border-box;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 120px;
+  border-radius: 5px;
 }
 
 .threeboxes {
   display: flex;
-  margin: -43px auto;
+  margin: -155px auto;
   gap: 2rem;
 }
 .rubrik {
@@ -314,4 +335,85 @@ div.lowergrid p {
 
 .lorem {
   flex: 1;
+  margin-right: 70px;
+  margin-top: 24px;
+}
+
+.lorem p {
+  padding: 105px;
+  font-family: Fira Sans;
+  font-size: 14px;
+}
+
+.threeboxes .ruta1 h2,
+.threeboxes .ruta2 h2,
+.threeboxes .ruta3 h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.threeboxes .ruta1 p,
+.threeboxes .ruta2 p,
+.threeboxes .ruta3 p {
+  font-family: Fira Sans;
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.ruta1 img {
+  width: 214px;
+  height: 138px;
+  background-color: #c7ddea;
+  object-fit: contain;
+  margin-top: -160px;
+  margin-left: -14.6px;
+  border: solid 10px;
+  border-color: #c7ddea;
+  border-radius: 4px;
+}
+
+.ruta2 img {
+  width: 214px;
+  height: 138px;
+  background-color: #fab131;
+  object-fit: contain;
+  margin-top: -160px;
+  margin-left: -14.6px;
+  border: solid 10px;
+  border-color: #fab131;
+  border-radius: 4px;
+}
+
+.ruta3 img {
+  width: 214px;
+  height: 138px;
+  background-color: #f17949;
+  object-fit: contain;
+  margin-top: -160px;
+  margin-left: -14.6px;
+  border: solid 10px;
+  border-color: #f17949;
+  border-radius: 4px;
+}
+
+.orangerubrik {
+  position: absolute;
+  top: 182%;
+  left: 44%;
+  font-size: 45px;
+  color: white;
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+.orangetext {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Fira Sans;
+  text-align: center;
+  position: absolute;
+  top: 37%;
+  left: 66%;
+  transform: translate(-108%, 489%);
+  padding-left: 141px;
 }

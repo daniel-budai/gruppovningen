@@ -10,7 +10,6 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0px 0px;
-  width: 1002px;
 }
 
 .topright > div > p {
@@ -92,7 +91,6 @@ body {
 
 footer {
   background-color: #777574;
-  width: 1002px;
   height: 21.25rem;
 }
 
@@ -113,26 +111,22 @@ footer {
 
 section.Rectangle_bottom {
   background-color: #a9a19e;
-  width: 1002px;
   height: 4.25rem;
 }
 
 .graysection {
   background-color: #a9a19e;
-  width: 1002px;
   height: 38.25rem;
   display: flex;
 }
 
 .orangesection {
   background-color: #fab131;
-  width: 1002px;
   height: 42.5rem;
   display: flex;
 }
 
 nav {
-  max-width: 1002px;
   height: 3rem;
   background: #eee;
   display: flex;

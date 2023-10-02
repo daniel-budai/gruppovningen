@@ -68,7 +68,7 @@ body {
   text-align: center;
   justify-content: center;
   line-height: 24px;
-  padding: 0 80px;
+  padding: 0 5rem;
 }
 
 .topleft span {
@@ -78,8 +78,8 @@ body {
 
 .toplefttext button {
   text-decoration: none;
-  height: 39px;
-  width: 131px;
+  height: 2.438rem;
+  width: 8.188rem;
   font-size: 10px;
   font-family: Fira Sans;
   font-weight: 700;
@@ -90,27 +90,27 @@ body {
   border-radius: 999rem;
   border: none;
   position: relative;
-  top: 100px;
+  top: 6.25rem;
 }
 
 .topleft img {
-  width: 286px;
-  height: 279px;
+  width: 17.875rem;
+  height: 17.438rem;
   display: flex;
   position: relative;
-  right: -100px;
+  right: -6.25rem;
 }
 
 footer {
   background-color: #777574;
   width: 1002px;
-  height: 340px;
+  height: 21.25rem;
 }
 
 section.Rectangle_bottom {
   background-color: #a9a19e;
   width: 1002px;
-  height: 68px;
+  height: 4.25rem;
 }
 
 .Rectangle_bottom img {
@@ -138,7 +138,7 @@ section.Rectangle_bottom {
 .orangesection {
   background-color: #fab131;
   width: 1002px;
-  height: 680px;
+  height: 42.5rem;
   display: flex;
 }
 
@@ -218,7 +218,7 @@ nav a:hover {
 div.rectangle_3 h1 {
   font-size: 2.813rem;
   line-height: 2.813rem;
-  height: 250px;
+  height: 15.625rem;
   font-family: "Frank Ruhl Libre", serif;
   display: flex;
   align-items: center;
@@ -253,14 +253,14 @@ div.lowergrid p {
   font-family: "Frank Ruhl Libre", serif;
   color: white;
   line-height: 45px;
-  padding-left: 140px;
-  padding-top: 105px;
+  padding-left: 8.75rem;
+  padding-top: 6.563rem;
 }
 
 .graysection button {
   text-decoration: none;
   height: 39px;
-  width: 131px;
+  width: 8.188rem;
   font-size: 10px;
   font-family: Fira Sans;
   font-weight: 700;
@@ -271,62 +271,51 @@ div.lowergrid p {
   border-radius: 999rem;
   border: none;
   position: relative;
-  left: 130px;
+  left: 8.125rem;
   top: 10px;
 }
 
-/*
-.graysection p {
-  font-family: Fira Sans;
-  font-size: 14px;
-  line-height: 24px;
-  margin-left: 603px;
-  margin-right: 122px;
-  margin-top: -208px;
-}
-*/
 .ruta1 {
-  width: 256px;
-  height: 308px;
+  width: 16rem;
+  height: 19.25rem;
   background-color: white;
   text-align: center;
-  padding-top: 81px;
+  padding-top: 5.063rem;
   box-sizing: border-box;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 120px;
+  padding-top: 7.5rem;
   border-radius: 5px;
 }
 
 .ruta2 {
-  width: 256px;
-  height: 308px;
+  width: 16rem;
+  height: 19.25rem;
   background-color: white;
   text-align: center;
-  padding-top: 81px;
+  padding-top: 5.063rem;
   box-sizing: border-box;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 120px;
+  padding-top: 7.5rem;
   border-radius: 5px;
 }
 
 .ruta3 {
-  width: 256px;
-  height: 308px;
+  width: 16rem;
+  height: 19.25rem;
   background-color: white;
   text-align: center;
-
   box-sizing: border-box;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 120px;
+  padding-top: 7.5rem;
   border-radius: 5px;
 }
 
 .threeboxes {
   display: flex;
-  margin: -155px auto;
+  margin: -9.688rem auto;
   gap: 2rem;
 }
 .rubrik {
@@ -335,12 +324,12 @@ div.lowergrid p {
 
 .lorem {
   flex: 1;
-  margin-right: 70px;
-  margin-top: 24px;
+  margin-right: 4.375rem;
+  margin-top: 1.5rem;
 }
 
 .lorem p {
-  padding: 105px;
+  padding: 6.563rem;
   font-family: Fira Sans;
   font-size: 14px;
 }
@@ -362,11 +351,11 @@ div.lowergrid p {
 }
 
 .ruta1 img {
-  width: 214px;
-  height: 138px;
+  width: 13.375rem;
+  height: 8.625rem;
   background-color: #c7ddea;
   object-fit: contain;
-  margin-top: -160px;
+  margin-top: -10rem;
   margin-left: -14.6px;
   border: solid 10px;
   border-color: #c7ddea;
@@ -374,11 +363,11 @@ div.lowergrid p {
 }
 
 .ruta2 img {
-  width: 214px;
-  height: 138px;
+  width: 13.375rem;
+  height: 8.625rem;
   background-color: #fab131;
   object-fit: contain;
-  margin-top: -160px;
+  margin-top: -10rem;
   margin-left: -14.6px;
   border: solid 10px;
   border-color: #fab131;
@@ -386,11 +375,11 @@ div.lowergrid p {
 }
 
 .ruta3 img {
-  width: 214px;
-  height: 138px;
+  width: 13.375rem;
+  height: 8.625rem;
   background-color: #f17949;
   object-fit: contain;
-  margin-top: -160px;
+  margin-top: -10rem;
   margin-left: -14.6px;
   border: solid 10px;
   border-color: #f17949;
@@ -415,5 +404,5 @@ div.lowergrid p {
   top: 37%;
   left: 66%;
   transform: translate(-108%, 489%);
-  padding-left: 141px;
+  padding-left: 8.813rem;
 }
